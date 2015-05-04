@@ -1,0 +1,76 @@
+// bower:scss
+// endbower
+html{
+  height: 100%;
+  display: block;
+  
+}
+
+.hidden{
+    display: none;
+}
+body {
+  background: #999;
+  font-family: 'gothamcondensedwebfont', Helvetica, Arial, sans-serif;
+  color: #fff;
+  position: relative;
+  background-image: url('/images/fond-high-tech.jpg');
+  background-size: cover;
+  position: relative;
+  height: 100%;
+  overflow: hidden;
+}
+
+.content {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  padding: 10px;
+  h1{
+    font-size: 3em;
+    font-weight: 300;
+    strong{
+      font-weight: 700;
+    }
+  }
+}
+.col-50{
+  width: 49%;
+  display: inline-flex;
+}
+.flex-container {
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-content: flex-end;
+    align-items: flex-start;
+    div{
+    flex-grow: 1;
+    flex-shrink: 0;
+    flex-basis: 0;
+    }
+}
+
+#mc_embed_signup{
+  input{
+    background-color: transparent;
+    border:0;
+    display: block;
+    line-height: 35px;
+    border-bottom:1px solid #CC3333;
+    width: 100%;
+  }
+  .submit{
+    background: #CC3333;
+  }
+}
+.text-right{
+  text-align: right;
+}
+.browserupgrade {
+  margin: 0.2em 0;
+  background: #ccc;
+  color: #000;
+  padding: 0.2em 0;
+}
